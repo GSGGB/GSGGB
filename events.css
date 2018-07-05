@@ -1,0 +1,133 @@
+/* "Our Events" */
+.page-title{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+/* "Upcoming Events", "Past Events" */
+.page-subtitle{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: #4c4c4c;
+}
+
+/* 1 hr only */
+.title-separator{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Between sections */
+.section-separator{
+    margin: 0px;
+}
+
+/* Card Header */
+.header{
+    color: black;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+#cloud-background{
+    background-color: whitesmoke;
+}
+
+#blue-background{
+    background-color: #67C8FF;
+    border-color: black;
+    border-width: 2px;
+}
+
+/* Content */
+.center-content{
+    text-align: center;
+}
+
+#learn-more-button{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#facebook-button{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    background: #3B5998;
+    border-color: #3B5998;
+    color: white;
+    margin-bottom: 5px;
+}
+
+/* Date, Time, and Location outside of Modal */
+.details{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: black;
+}
+
+.landscape-poster{
+    width: 100%;
+    height: 225px;
+}
+
+.portrait-poster{
+    width: 100%;
+    height: 475px;
+}
+
+.square-poster{
+    width: 100%;
+    height: 100%;
+}
+
+.clock-photo{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* MODAL */
+.event-name{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+/* Date, Time, and Location */
+.info{
+    font-family: Georgia, serif;
+    color: #4c4c4c;
+    margin-bottom: 20px;
+}
+
+/* Separator between info and detailed text about event */
+.divider{
+    border-width: 1px;
+    border-color: #4c4c4c;
+    margin-bottom: 20px;
+}
+
+/* Detailed text about event */
+.paragraph{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: black;
+}
+
+#modal-header{
+    border-width: 0px;
+}
+
+/* Close Button */
+#event-close-button{
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+.enlarged-poster{
+    width: 100%;
+    height: auto;
+    margin-bottom: 35px;
+}

@@ -1,0 +1,170 @@
+/* Top */
+.logo{
+    width: 250px;
+    height: 200px;
+}
+
+.title{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    text-align: right;
+    color: black;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 37px;
+}
+
+.subtitle{
+    color: #4c4c4c;
+    font-size: 22px;
+}
+/* End of Top */
+
+
+/* Navigation Bar */
+.navbar-nav > li > a {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+nav a:hover{
+	transition: font-size 1s;
+	font-size: 1.1em;
+}
+
+#nav-font-family{
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+#nav-color{
+    color: black;
+}
+
+.active a {
+	border-bottom: solid;
+    border-width: 2px;
+}
+
+.dropdown-menu{
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+/* End of Navigation Bar */
+
+
+/* Background colors */
+.white-background{
+    background-color: white;
+}
+
+.cloud-background{
+    background-color: whitesmoke;
+}
+
+.silver-background{
+    background-color: #dcdcdc;
+}
+/* End of background colors */
+
+
+/* Slideshow */
+.carousel-slideshow{
+    height: 475px;
+}
+
+#slideshow-photo{
+    height: 475px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 75px;
+    width: 75px;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: black;
+    opacity: 0.7;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+    content: '>';
+    font-size: 40px;
+    color: white;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 40px;
+    color: white;
+}
+
+.carousel-indicators li {
+    border-radius: 15px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    background-color: #dcdcdc;
+}
+
+.carousel-indicators .active{
+    border: 2px solid black;
+    background-color: #67C8FF;
+}
+/* End of slideshow */
+
+
+/* Content */
+.header{
+    color: black;
+    font-family: Georgia, serif;
+}
+
+#card-header-background{
+    background-color: #67C8FF;
+    border-color: black;
+    border-width: 2px;
+}
+
+#fb-page{
+    width: 100%;
+}
+
+/* Control height of cards */
+#fb-like-col-height{
+    height: 600px;
+}
+
+#fb-post-col-height{
+    height: 600px;
+    overflow-y: scroll;
+}
+/* End of Control */
+
+.paragraph{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: black;
+}
+
+.month{
+    color: #FDE699;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.date{
+    color: #FDE699;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    font-family: Georgia, serif;
+    font-size: 28px;
+    margin: 0px;
+}
+/* End of content */

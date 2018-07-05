@@ -1,0 +1,35 @@
+/* "Our 2017-2018 Executive Team" */
+.page-title{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+/* "Names only" */
+.page-subtitle{
+    font-family: Georgia, serif;
+    color: #4c4c4c;
+}
+
+/* 1 hr only */
+.title-separator{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Between sections */
+.section-separator{
+    margin: 0px;
+}
+
+.executive-title{
+    font-family: Georgia, serif;
+    font-size: 18px;
+    color: #4c4c4c;
+}
+
+.executive-names{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: black;
+}

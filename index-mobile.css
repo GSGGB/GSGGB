@@ -1,0 +1,140 @@
+/* Turn navigation bar into 2 rows */
+@media (min-width: 767px){
+    .mobile-version{
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
+    .second-row{
+        display: none;
+    }
+}
+/* End of navigation bar */
+
+
+/* HEADER */
+/* Make logo smaller in mobile devices */
+@media (max-width: 300px){ 
+    .logo{
+        width: 225px;
+        height: 180px;
+    }
+}
+
+/* Remove title in mobile screens */
+@media (max-width: 575px){ 
+    .title{
+        display: none;
+    }
+    
+    .subtitle{
+        display: none;
+    }
+}
+/* END OF HEADER */
+
+
+/* SLIDESHOW MEDIA QUERIES */
+@media (max-width: 374.98px) {
+    /* Slideshow */
+    #carousel-slideshow{
+        height: 160px;
+    }
+
+    #slideshow-photo{
+        height: 160px;
+    }
+    
+    #slideshow-learn-more-button{
+        font-size: 14px;
+        float: right;
+        margin-bottom: 75px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 575.98px) {
+    /* Slideshow */
+    #carousel-slideshow{
+        height: 200px;
+    }
+
+    #slideshow-photo{
+        height: 200px;
+    }
+    
+    #slideshow-learn-more-button{
+        font-size: 16px;
+        float: right;
+        margin-bottom: 110px;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    /* Slideshow circle indicators */
+    .carousel-indicators li {
+        border-radius: 10px;
+        width: 10px;
+        height: 10px;
+        border: 2px solid black;
+        background-color: #dcdcdc;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Slideshow */
+    #carousel-slideshow{
+        height: 275px;
+    }
+
+    #slideshow-photo{
+        height: 275px;
+    }
+    
+    #slideshow-learn-more-button{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+}
+    
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Slideshow */
+    #carousel-slideshow{
+        height: 325px;
+    }
+
+    #slideshow-photo{
+        height: 325px;
+    }
+}
+
+@media (max-width: 992px){
+    /* Slideshow arrows */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 55px;
+        width: 55px;
+    }
+
+    .carousel-control-next-icon:after{
+        font-size: 30px;
+    }
+
+    .carousel-control-prev-icon:after {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Slideshow */
+    #carousel-slideshow{
+        height: 375px;
+    }
+
+    #slideshow-photo{
+        height: 375px
+    }
+}
+/* END OF SLIDESHOW */

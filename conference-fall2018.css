@@ -1,0 +1,23 @@
+/* "Fall 2018 Conference" */
+.page-title{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+.page-subtitle{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: #4c4c4c;
+}
+
+/* 1 hr only */
+.title-separator{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Between sections */
+.section-separator{
+    margin: 0px;
+}

@@ -1,0 +1,30 @@
+/* Adjusting height for portrait and landscape posters only (no square) */
+@media (max-width: 1200px){
+    .landscape-poster{
+        height: 175px;
+    }
+    
+    .portrait-poster{
+        height: 400px;
+    }
+}
+
+@media (max-width: 992px){
+    .landscape-poster{
+        height: 125px;
+    }
+    
+    .portrait-poster{
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px){
+    .landscape-poster{
+        height: 100%;
+    }
+    
+    .portrait-poster{
+        height: 100%;
+    }
+}

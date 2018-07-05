@@ -1,0 +1,142 @@
+/* "Our Sponsors" */
+.page-title{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+/* "Thank-you..." */
+.page-subtitle{
+    font-family: Georgia, serif;
+    color: #4c4c4c;
+}
+
+/* 1 hr only */
+.title-separator{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Between sections */
+.section-separator{
+    margin: 0px;
+}
+
+/* Center logos in each section */
+.center-content{
+    text-align: center;
+}
+
+
+/* Sponsors title for each section */
+.platinum-subtitle{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: #7F7679;
+}
+
+.gold-subtitle{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: #D4AF37;
+}
+
+.silver-subtitle{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: #C0C0C0;
+}
+
+.bronze-subtitle{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: #CD7F32;
+}
+
+.partner-subtitle{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+.orange-subtitle{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: darkorange;
+}
+/* End of sponsors title for each section */
+
+
+/* PLATINUM SECTION */
+.trillium-logo{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+/* END OF PLATINUM SECTION */
+
+
+/* GOLD SECTION */
+.janpix-logo{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.princeton-logo{
+    width: 375px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+/* END OF GOLD SECTION */
+
+
+/* SILVER SECTION */
+.physiology-logo{
+    width: 425px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.csb-logo{
+    width: 275px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.newcollege-logo{
+    width: 175px;
+    height: 175px;
+    margin-bottom: 50px;
+}
+/* END OF SILVER SECTION */
+
+
+/* BRONZE SECTION */
+.assu-logo{
+    width: 300px;
+    height: 150px;
+    margin-bottom: 50px;
+}
+/* END OF BRONZE SECTION */
+
+
+/* PARTNER SECTION */
+.partner-landscape-logo{
+    width: 225px;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.partner-square-logo{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.rare-disease-foundation-logo{
+    width: 425px;
+    height: 175px;
+    margin-bottom: 50px;
+}
+/* END OF PARTNER SECTION */

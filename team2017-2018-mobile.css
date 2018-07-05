@@ -1,0 +1,13 @@
+/* Add more spacing between title sections */
+@media (max-width: 992px){
+    .executive-title{
+        margin-bottom: 50px;
+    }
+}
+
+/* Mobile versions */
+@media (max-width: 576px){
+    .executive-title{
+        margin: 0;
+    }
+}

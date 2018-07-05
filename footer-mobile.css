@@ -1,0 +1,10 @@
+/* Shift footer content to left in mobile screens */
+@media (max-width: 768px){ 
+    .copyright-title{
+        float: left;
+    }
+    
+    .back-to-top{
+        float: left;
+    }
+}

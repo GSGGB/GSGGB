@@ -1,0 +1,81 @@
+/* "Contact Us" */
+.page-title{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+/* 1 hr only */
+.title-separator{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* FIRST SECTION */
+.center-content{
+    text-align: center;
+}
+
+/* Main logo, Facebook, Instagram, Twitter */
+.contact-logo{
+    border-radius: 50%;
+	width: 125px;
+	height: 125px;
+    margin-bottom: 15px;
+}
+
+#main-logo{
+    border: 2px solid whitesmoke;
+}
+
+/* Excluding main logo for hover */
+#socialmedia-logo:hover{
+    opacity: 0.7;
+}
+
+.contact-name{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+.contact-details{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+/* END of FIRST SECTION */
+
+/* Separate form from rest of page */
+.form-separator{
+    border-top: 3px double #4c4c4c;
+	margin: 0;
+}
+
+/* START OF SECOND SECTION/FORM */
+/* "Feel free to also contact us through our online form!" */
+.form-subtitle{
+    font-family: Georgia, serif;
+    color: black;
+}
+
+#contact-form-section{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: black;
+}
+
+#contact-form-input{
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+#contact-form-button{
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+.asterisk{
+    color: red;
+}
+/* END OF SECOND SECTION/FORM */
