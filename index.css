@@ -131,15 +131,17 @@ nav a:hover{
     border-width: 2px;
 }
 
+/* FB Widget */
 #fb-page{
     width: 100%;
 }
 
-/* Control height of cards */
-#fb-like-col-height{
-    height: 600px;
+/* JIGG website photo preview */
+.jigg-preview{
+    width: 100%;
 }
 
+/* Control height of cards */
 #fb-post-col-height{
     height: 600px;
     overflow-y: scroll;
@@ -153,7 +155,7 @@ nav a:hover{
 }
 
 .month{
-    color: #FDE699;
+    color: #D4AF37;
     text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
     font-family: Georgia, serif;
     font-size: 20px;
@@ -161,7 +163,7 @@ nav a:hover{
 }
 
 .date{
-    color: #FDE699;
+    color: #D4AF37;
     text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
     font-family: Georgia, serif;
     font-size: 28px;
