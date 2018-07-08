@@ -1,0 +1,46 @@
+/* Allow for more top/bottom spacing between executives when screen is compressed */
+@media (min-width: 768px){
+    .enlarged-spacing{
+        display: none;
+    } 
+}
+
+
+/* Mobile version */
+@media (max-width: 575px){
+    .section-separator{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    #card-button{
+        width: 100%;
+    }
+    
+    .enlarged-spacing{
+        display: none;
+    }
+}
+
+/* Allow for more spacing between executives in mobile version */
+@media (min-width: 575px){
+    .vertical-shift{
+        display: none;
+    } 
+}
+
+
+
+/* Very small mobile screens */
+@media (max-width: 330px){
+    .enlarged-executive-photo{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 330px){
+    .break-button-text{
+        display: none;
+    }
+}
