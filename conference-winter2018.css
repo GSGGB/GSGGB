@@ -21,3 +21,265 @@
 .section-separator{
     margin: 0px;
 }
+
+.background-container {
+    position: relative;
+    /* Set rules to fill background */
+    min-height: 500px;
+    min-width: 100$;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    background-color: #5994f2;
+
+}
+/* Centered Event Title */
+.centered-title {
+	color: #E5E5E5;
+	text-shadow: -2px -2px 2px #2C2C2C;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size:3.55vw;
+    font-style: bold;
+  	font-variant: normal;
+    font-weight: bold;
+  	overflow: hidden;
+  	white-space: nowrap;
+    transform: translate(-50%, -50%);
+}
+
+/* Subtitle - Date and Location */
+.centered-subtitle {
+  color: #E5E5E5;
+  text-shadow: -2px -2px 2px #2C2C2C;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  font-size:2.5vw;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  transform: translate(-50%, -50%);
+}
+
+/* Button div below the subtitle */
+.centered-register-div {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Register button */
+.register-button {
+  background-color: #2C2C2C;
+  font-size: 2vw;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  padding: 1vw;
+  color:white;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* Button div below the register button */
+.centered-about-div {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* About button */
+.about-button {
+  background-color: #2C2C2C;
+  font-size: 2vw;
+  margin: .5px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  color:white;
+  text-align: center;
+  border-radius: 50%;
+}
+
+/* Main body */
+#main {
+  background: #3B3B3B;
+}
+
+/* Contains the countdown timer*/
+.counter-parent {
+  background: #2C2C2C;
+  -moz-box-shadow:    inset 0 0 5px #000000;
+  -webkit-box-shadow: inset 0 0 5px #000000;
+  box-shadow:         inset 0 0 5px #000000;
+  text-align: center;
+  height: 15vw;
+  overflow: hidden;
+}
+
+.counter {
+  height:50%;
+}
+
+.counter h3 {
+  color: #E5E5E5;
+  font-size: 2.5vw;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  line-height: 1;
+  letter-spacing: 1px;
+  padding-top: 5%;
+}
+
+/* Counter */
+#countdown {
+  color: #FFFFFF;
+  height:50%;
+}
+
+#countdown span {
+  color: #E5E5E5;
+  font-size: 1.5vw;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  vertical-align: center;
+  display: inline-block;
+  padding-top: 1.5%;
+}
+
+/* About div */
+.about-div {
+  height: 50%;
+}
+
+/* Font for about div */
+.about-div h3 {
+  color: #E5E5E5;
+  font-size: 2vw;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  padding:3vw;
+}
+
+.about-div p {
+  color: white;
+  font-size: 1.9vw;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  text-align: justify;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 2vw;
+
+}
+
+.part {
+  border-bottom: 1px solid #262626;
+}
+
+/* Speaker div */
+div.speaker-div {
+
+}
+
+div.poster-div {
+  padding: 1.5%;
+}
+.poster-div img {
+  max-width: 50%;
+  max-height: 50%;
+  text-align: center;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.speaker-div img {
+    max-width: 80%;
+    max-height: 80%;
+    padding: 1vws;
+    border: 2px solid #E5E5E5;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.speaker-description {
+  max-height: 100%;
+  max-width: 80%;
+  padding: 1vw;
+  margin: 1vw;
+  background-color: #2C2C2C;
+  border: 2px solid #E5E5E5;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2vw;
+  color: #E5E5E5;
+  font-size: 2vw;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+}
+#map {
+ width: 95%;
+ height: 400px;
+ margin-top: 1vw;
+ margin-bottom: 1vw;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: grey;
+}
+.tab {
+  margin-left: 1em;
+  border-bottom: none;
+}
+
+@media only screen and (max-width:765px) {
+  .centered-title {
+    font-size: 25px;
+  }
+
+  .centered-subtitle {
+    font-size: 16px;
+  }
+
+  .register-button {
+    font-size: 14px;
+  }
+
+  .countdown {
+    font-size: 20px;
+  }
+  .counter {
+    font-size: 20px;
+  }
+
+  .about-button {
+    font-size: 12px;
+  }
+
+  .about-div h3 {
+    font-size: 20px;
+  }
+
+  .about-div p {
+    font-size: 15px;
+  }
+
+  .speaker-description {
+    font-size: 15px;
+  }
+}
