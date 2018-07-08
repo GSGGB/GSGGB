@@ -34,6 +34,11 @@
     background-color: #5994f2;
 
 }
+
+.background-image{
+    width: 100%;
+}
+
 /* Centered Event Title */
 .centered-title {
 	color: #E5E5E5;
