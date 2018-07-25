@@ -25,13 +25,12 @@
 .background-container {
     position: relative;
     /* Set rules to fill background */
-    min-height: 500px;
-    min-width: 100$;
+    min-width: 100%;
 
     /* Set up proportionate scaling */
     width: 100%;
     height: auto;
-    background-color: #5994f2;
+    background-attachment: fixed;
 
 }
 
