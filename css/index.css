@@ -169,4 +169,8 @@ nav a:hover{
     font-size: 28px;
     margin: 0px;
 }
+
+.content-divider{
+    margin-bottom: 20px;
+}
 /* End of content */
