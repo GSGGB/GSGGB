@@ -1,5 +1,18 @@
 @media only screen and (max-width:765px) {
-  .vertical-menu {
-    display: none;
-  }
+    .vertical-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 992px){
+    .vertical-menu{
+        width: 150px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 500px){
+    .team-photo{
+        width: 100%; 
+    }
 }
