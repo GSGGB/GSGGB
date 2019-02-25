@@ -60,6 +60,15 @@
     margin-bottom: 5px;
 }
 
+#eventbrite-button{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    background: #FF8000;
+    border-color: #FF8000;
+    color: white;
+    margin-bottom: 5px;
+}
+
 
 /* Date, Time, and Location outside of Modal */
 .details{
