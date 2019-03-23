@@ -1,0 +1,33 @@
+@media (max-width: 768px){
+    .conference-title{
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 52px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        text-shadow: -2px -2px 2px #2C2C2C;
+        padding-top: 75px;
+    }
+
+    .conference-subtitle{
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 24px;
+        text-align: center;
+        color: white;
+        text-shadow: -2px -2px 2px #2C2C2C;
+        margin-bottom: 30px;
+    }
+
+    .conference-button{
+        text-align: center;
+        padding-bottom: 150px;
+    }
+
+    #eventbrite-button{
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 18px;
+        background: #FF8000;
+        border-color: #FF8000;
+        color: white;
+    }
+}

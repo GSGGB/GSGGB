@@ -1,23 +1,74 @@
-/* "Winter 2019 Conference" */
-.page-title{
-    font-family: Georgia, serif;
+.banner{
+    background: url(../conference-winter2019/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.gsggb-logo{
+    width: 95px;
+    height: 95px;
+    float: left;
+    margin-right: 5px;
+}
+
+.carrm-logo{
+    width: 45px;
+    height: 45px;
+    float: right;
+    margin-bottom: 5px;
+}
+
+.utpms-logo{
+    width: 45px;
+    height: 45px;
+    float: right;
+}
+
+#nav-font-family{
+    font-size: 18px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-weight: bold;
-    color: black;
 }
 
-.page-subtitle{
-    font-family: Georgia, serif;
+#nav-color{
+    color: white;
+    margin-right: 5px;
+}
+
+nav a:hover{
+	transition: font-size 1s;
+	font-size: 1.1em;
+}
+
+
+.conference-title{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 66px;
     font-weight: bold;
-    color: #4c4c4c;
+    text-align: center;
+    color: white;
+    text-shadow: -2px -2px 2px #2C2C2C;
+    padding-top: 125px;
 }
 
-/* 1 hr only */
-.title-separator{
-    margin-top: 25px;
-    margin-bottom: 25px;
+.conference-subtitle{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    text-shadow: -2px -2px 2px #2C2C2C;
+    margin-bottom: 30px;
 }
 
-/* Between sections */
-.section-separator{
-    margin: 0px;
+.conference-button{
+    text-align: center;
+    padding-bottom: 225px;
+}
+
+#eventbrite-button{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 30px;
+    background: #FF8000;
+    border-color: #FF8000;
+    color: white;
 }
