@@ -73,43 +73,116 @@ nav a:hover{
     color: white;
 }
 
-/** Content section of the Conference Page **/
-.section{
+
+.black-section{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #2C2C2C;
+}
+
+.gray-section{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #3B3B3B;
+}
+
+.section-title{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+}
+
+/* Section with conference poster */
+.poster-image{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/** About section **/
+.about-us-section{
+    font-size: 23px;
+    text-align: justify;
+    color: white;
     background: #2C2C2C;
 }
 
-/** Section with the conference poster **/
-.poster-section h3{
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 35px;
-  color: white;
-  border-bottom: 1px solid #262626;
+
+/* Speaker section */
+.card-transparent{
+    background-color: #2C2C2C;
+    border: 2px solid #E5E5E5;
+    text-align: center;
 }
 
-.poster-image img {
-  max-width: 50%;
-  max-height: 50%;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 5%;
+.speaker-photo{
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    margin-top: 25px;
+    cursor: pointer;
 }
 
-/** About the conference section **/
-
-.about-us-section h3{
-  color: white;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 40px;
+.speaker-photo:hover {
+     opacity: 0.7;
 }
 
-.about-us-section{
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 23px;
-  text-align: justify;
-  color: white;
-  border-bottom: 1px solid #262626;
-  background: #2C2C2C;
-  padding-bottom: 4%;
+.speaker-name{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.speaker-description{
+    color: white;
+    text-align: center;
+}
+
+
+/* MODAL */
+.modal-content{
+    background-color: whitesmoke;
+}
+
+.enlarged-speaker-photo{
+    border-radius: 50%;
+    width: 225px;
+	height: 225px;
+    margin-bottom: 25px;
+}
+
+#close-button{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.name{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.description{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #4c4c4c;
+    margin-bottom: 20px;
+}
+
+.divider{
+    border-width: 1px;
+    border-color: #4c4c4c;
+    margin-bottom: 20px;
+}
+
+.biography{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+#modal-header{
+    border-width: 0px;
 }

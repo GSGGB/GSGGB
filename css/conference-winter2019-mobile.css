@@ -35,13 +35,19 @@
         font-size: 20px;
     }
 
-}
-
-@media (max-width: 986px){
-    .poster-image img {
-        max-width: 70%;
-        max-height: 70%;
+    .poster-image{
+        width: 100%;
+    }
+    
+    .card-transparent{
+        margin-bottom: 25px;
     }
 }
 
-
+/* Very small mobile screens */
+@media (max-width: 330px){
+    .enlarged-speaker-photo{
+        width: 150px;
+        height: 150px;
+    }
+}
