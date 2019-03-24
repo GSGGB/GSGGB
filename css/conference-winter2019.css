@@ -72,3 +72,44 @@ nav a:hover{
     border-color: #FF8000;
     color: white;
 }
+
+/** Content section of the Conference Page **/
+.section{
+    background: #2C2C2C;
+}
+
+/** Section with the conference poster **/
+.poster-section h3{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 35px;
+  color: white;
+  border-bottom: 1px solid #262626;
+}
+
+.poster-image img {
+  max-width: 50%;
+  max-height: 50%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5%;
+}
+
+/** About the conference section **/
+
+.about-us-section h3{
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.about-us-section{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 23px;
+  text-align: justify;
+  color: white;
+  border-bottom: 1px solid #262626;
+  background: #2C2C2C;
+  padding-bottom: 4%;
+}
