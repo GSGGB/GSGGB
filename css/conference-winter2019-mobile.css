@@ -1,3 +1,17 @@
+@media (max-width: 1200px){
+    .navbar-dark{
+        position: relative;
+    }
+    
+    .navbar-dark.scrolled{
+        position: fixed;
+    }
+    
+    .conference-title{
+        padding-top: 125px;
+    }
+}
+
 @media (max-width: 768px){
     .conference-title{
         font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -41,6 +55,10 @@
     
     .card-transparent{
         margin-bottom: 25px;
+    }
+    
+    .schedule-image{
+        width: 100%;
     }
 }
 

@@ -55,13 +55,16 @@
                             <a class="nav-link" id="nav-color" href="#speakers">SPEAKERS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="nav-color" href="#">SCHEDULE</a>
+                            <a class="nav-link" id="nav-color" href="#schedule">SCHEDULE</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="nav-color" href="#sponsors">SPONSORS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="nav-color" href="#">FAQ</a>
+                            <a class="nav-link" id="nav-color" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-color" href=""></a>
                         </li>
                     </ul>
                 </div>
@@ -73,9 +76,8 @@
         </div>
         
         <div class="black-section">
-            <br><br>
+            <br><br><br><br><br><br><br><br><br><br>
             <div class="container">
-                <br>
                 <h3 class="section-title">Official Conference Poster</h3>
                 <br>
                 <img class="poster-image" src="events/conference-poster-2019-final.jpg">
@@ -83,10 +85,10 @@
             <br>
         </div>
         
-        <div class="black-section">
-            <br>
-            <div class="about-us-section container" id="about">
-                <br>
+        
+        <div class="black-section" id="about">
+            <br><br><br><br><br><br>
+            <div class="about-us-section container">
                 <h3 class="section-title">What's going on?</h3>
                     <p> The Global Society for Genetics and Genome Biology (GSGGB) welcomes you to our 2nd annual research conference: Horizons in Molecular Medicine. The aim of our conference this year is to shed light on the pioneering work in molecular medicine research done in Toronto, with an emphasis on genome editing. This is achieved by bringing together world-renowned experts in various sub-fields of basic research.
                     <br><br>
@@ -107,13 +109,12 @@
                 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.388610953568!2d-79.39590928463325!3d43.660887079120904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34b841e92adf%3A0x934faf692557b4e4!2sMedical+Sciences+Building%2C+1+King&#39;s+College+Cir%2C+Toronto%2C+ON+M5S+1A8!5e0!3m2!1sen!2sca!4v1553386597006" width="100%" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
-            <br><br><br>
+            <br><br><br><br><br><br><br>
         </div>
         
-        <div class="gray-section">
-            <br>
-            <div class="speakers-section container" id="speakers">
-                <br>
+        <div class="gray-section" id="speakers">
+            <br><br><br><br><br><br>
+            <div class="speakers-section container">
                 <h3 class="section-title">Honourary Speakers - Click photo to view their bio!</h3>
                 <br>
                 <div class="row">
@@ -359,13 +360,25 @@
                 
             </div>
             
-            <br><br><br>
+            <br><br><br><br><br><br><br>
         </div>
         
-        <div class="gray-section">
-        
-            <div class="sponsors-section container" id="sponsors">
+        <div class="black-section" id="schedule">
+            
+            <br><br><br><br><br><br>
+            <div class="schedule-section container">
+                <h3 class="section-title">Conference Schedule</h3>
                 <br>
+                <img class="schedule-image" src="conference-winter2019/schedule.jpg">
+            </div>
+            <br><br><br><br><br><br><br>
+            
+        </div>
+        
+        <div class="gray-section" id="sponsors">
+            
+            <br><br><br><br><br><br>
+            <div class="sponsors-section container">
                 <h3 class="section-title">Our Sponsors</h3>
                     <p> Thank you to our sponsors for their support in our 2019 conference.
                     </p>
@@ -410,9 +423,20 @@
                     </div>
                       
             </div>
-            <br><br>
+            <br><br><br><br><br><br><br>
             </div>
         </div>
+        
+        <div class="black-section" id="faq">
+            
+            <br><br><br><br><br><br>
+            <div class="faq-section container">
+                <h3 class="section-title">FAQ</h3>
+            </div>
+            <br><br><br><br><br><br><br>
+            
+        </div>
+        
         
         <div class="subscribe-background">
             <p class="subscribe-title">
@@ -484,7 +508,12 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
+        
+        <script>
+            $(window).scroll(function(){
+                $('nav').toggleClass('scrolled', $(this).scrollTop() > 650);
+            });
+        </script>
     </body>
 
 </html>

@@ -1,3 +1,9 @@
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* Top */
 .logo{
     width: 250px;

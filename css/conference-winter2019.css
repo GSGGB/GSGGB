@@ -1,11 +1,26 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .banner{
     background: url(../conference-winter2019/banner.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
+.navbar-dark{
+    background: transparent !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-dark.scrolled{
+    background: url(../conference-winter2019/banner.jpg) !important;
+}
+
 .gsggb-logo{
-    width: 95px;
+    width: 119px;
     height: 95px;
     float: left;
     margin-right: 5px;
@@ -40,7 +55,6 @@ nav a:hover{
 	font-size: 1.1em;
 }
 
-
 .conference-title{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 66px;
@@ -48,7 +62,7 @@ nav a:hover{
     text-align: center;
     color: white;
     text-shadow: -2px -2px 2px #2C2C2C;
-    padding-top: 125px;
+    padding-top: 250px;
 }
 
 .conference-subtitle{
@@ -185,6 +199,15 @@ nav a:hover{
 
 #modal-header{
     border-width: 0px;
+}
+
+/* Schedule Section */
+.schedule-image{
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Sponsors Section */
