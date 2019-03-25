@@ -1,18 +1,14 @@
-@media (max-width: 1200px){
-    .navbar-dark{
-        position: relative;
-    }
-    
-    .navbar-dark.scrolled{
-        position: fixed;
-    }
-    
-    .conference-title{
-        padding-top: 125px;
+@media (min-width: 768px){
+    .vertical-spacing{
+        display: none;
     }
 }
 
 @media (max-width: 768px){
+    .navbar-dark{
+        background: url(../conference-winter2019/banner.jpg) !important;
+    }
+    
     .conference-title{
         font-family: "Trebuchet MS", Helvetica, sans-serif;
         font-size: 52px;
