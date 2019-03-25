@@ -44,6 +44,20 @@
     }
 }
 
+/* For small mobile devices */
+@media (max-width: 386px){
+    .assu-logo,.oztrekk-logo{
+        width: 100%;
+        height:auto;
+    }
+    
+    .rbc-logo,.u-of-t-logo{
+        width: 80%;
+        height:auto;
+    }
+}
+
+
 /* Very small mobile screens */
 @media (max-width: 330px){
     .enlarged-speaker-photo{

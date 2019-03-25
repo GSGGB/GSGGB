@@ -102,7 +102,7 @@ nav a:hover{
     margin-right: auto;
 }
 
-/** About section **/
+/* About section*/
 .about-us-section{
     font-size: 23px;
     text-align: justify;
@@ -186,3 +186,49 @@ nav a:hover{
 #modal-header{
     border-width: 0px;
 }
+
+/* Sponsors Section */
+.sponsors-section{
+    font-size: 23px;
+    text-align: justify;
+    color: white;
+    background: #3B3B3B;
+}
+
+/* Sponsors Logo Pictures */
+.u-of-t-logo{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.assu-logo{
+    width: 275px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.rbc-logo{
+    width: 175px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.oztrekk-logo{
+    width: 325px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
