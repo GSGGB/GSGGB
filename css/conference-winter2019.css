@@ -228,14 +228,6 @@ nav a:hover{
     margin-bottom: 30px;
 }
 
-/* FAQ Section */
-.faq-section{
-    font-size: 23px;
-    text-align: justify;
-    color: white;
-    background: #3B3B3B;
-}
-
 .assu-logo{
     width: 275px;
     height: 150px;
@@ -263,3 +255,15 @@ nav a:hover{
     margin-bottom: 30px;
 }
 
+
+/* FAQ Section */
+.faq-section{
+    font-size: 23px;
+    text-align: justify;
+    color: white;
+}
+
+.tab {
+  margin-left: 1em;
+  border-bottom: none;
+}
