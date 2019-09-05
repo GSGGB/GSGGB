@@ -73,6 +73,10 @@ nav a:hover{
 .silver-background{
     background-color: #dcdcdc;
 }
+
+.black-background{
+    background-color: black;
+}
 /* End of background colors */
 
 
@@ -121,6 +125,12 @@ nav a:hover{
 .carousel-indicators .active{
     border: 2px solid black;
     background-color: #67C8FF;
+}
+
+#slideshow-button{
+    font-family: Georgia, serif;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 /* End of slideshow */
 
