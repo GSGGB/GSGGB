@@ -1,0 +1,84 @@
+/* "Our 2019-2020 Executive Team" */
+.page-title{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+/* 1 hr only */
+.title-separator{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Between sections for executive members */
+.section-separator{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Bottom of page to keep consistent with other pages */
+.bottom-separator{
+    margin: 0;
+}
+
+/* Buttons in card header */
+#card-button{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* CONTENT */
+.name{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+.position{
+    font-family: Georgia, serif;
+    color: #4c4c4c;
+    margin-bottom: 20px;
+}
+
+.center-content{
+    text-align: center;
+}
+
+.divider{
+    border-width: 1px;
+    border-color: #4c4c4c;
+    margin-bottom: 20px;
+}
+
+.biography{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: black;
+}
+
+#modal-header{
+    border-width: 0px;
+}
+
+#bio-button{
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+.executive-photo{
+    border-radius: 50%;
+    width: 125px;
+	height: 125px;
+    margin-bottom: 15px;
+}
+
+.enlarged-executive-photo{
+    border-radius: 50%;
+    width: 225px;
+	height: 225px;
+    margin-bottom: 25px;
+}
