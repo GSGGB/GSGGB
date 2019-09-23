@@ -45,6 +45,13 @@
     text-align: center;
 }
 
+#meetandgreet {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  margin-bottom: 5px;
+  background: green;
+}
+
 #learn-more-button{
     font-family: Georgia, serif;
     font-size: 16px;
