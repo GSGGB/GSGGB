@@ -77,6 +77,10 @@ nav a:hover{
 .black-background{
     background-color: black;
 }
+
+.banner-background{
+    background-color: #FEFBEA;
+}
 /* End of background colors */
 
 
@@ -87,6 +91,7 @@ nav a:hover{
 
 #slideshow-photo{
     height: 475px;
+    margin: auto;
 }
 
 .carousel-control-prev-icon,
