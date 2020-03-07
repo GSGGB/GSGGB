@@ -12,6 +12,16 @@
 
 
 @media (max-width: 992px){
+    /* PLATINUM SECTION */
+    .peros-logo{
+        margin-top: 25px;
+    }
+    
+    .janpix-logo{
+        margin-right: 20px;
+    }
+    
+    
     /* SILVER SECTION */
     .extra-space-csb-logo{
         display: block;
@@ -20,6 +30,11 @@
 
 
 @media (max-width: 576px){
+    /* PLATINUM SECTION */
+    .peros-logo{
+        width: 375px;
+    }
+    
     /* SILVER SECTION */
     .extra-space-csb-logo{
         display: none;
@@ -31,7 +46,7 @@
 @media (max-width: 475px){
     /* PLATINUM SECTION */
     .trillium-logo{
-        width: 150px;
+        width: 100px;
         height: 100px;
     }
 

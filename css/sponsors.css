@@ -68,6 +68,12 @@
 
 
 /* PLATINUM SECTION */
+.peros-logo{
+    width: 500px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
 .trillium-logo{
     width: 300px;
     height: 200px;
@@ -77,10 +83,16 @@
 
 
 /* GOLD SECTION */
+.utsu-logo{
+    width: 250px;
+    margin-bottom: 20px;
+}
+
 .janpix-logo{
     width: 300px;
     height: 200px;
     margin-bottom: 50px;
+    margin-right: 60px;
 }
 
 .princeton-logo{
